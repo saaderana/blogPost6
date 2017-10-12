@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: blooming-reaches-54959
+  provider: heroku
+  api_key:
+    secure: MbSS+VG3cpPj/p7ViETda/9g8LOwROfu6cDc3D2Cx7yESM888U+NGLecUNIkS/mdAuW3VFA0rD35xiZC8mmCv3+0JFGSnpdKjhaF9xHSFunF7ij/eXI0OKQ8Ev/5qJGEzsPct6YbHZeVBfND5guPWVpU+7kvwmzXv8LwdUF5/RFIQisM33emKYAlhKzWTD/uBhmWK0JXZ4H4UfrIvLdWdCoUFYVt+oR62ceHD3neDCE/eE1Js3SzwHTRqAX7JIqVK7d4cINApRanE8kaMQzSuEsitGbsUfD2hYFY0QqNmtGi4ldSdtpSla0FYsVUwLqn7G+0hs9JFmt8gbCuEzjjLbThXvFFK3eRbrLnN0iS2MXn+CbP2+fVUbN744RTB2dS/2NELPk6Du6v7DXWBn7N6FBfIGOgIM5L2anALCzEtF7KQR9qPyy7+v/FgFDevZL5FNaNltsSzF8+X54ckKIs39fJRSOywiSFq2HMi6mm9EdQSkP3bfQKwglHnJfXLScBwIjQeCBBr6Otgm9nXiNars3X0jLYf3pLYnOLopJaHqZUnL/Dx+EEE5S7OfqeLw+iboZ1XHfXFQ5GmS3uvLvJBRg/2g0I9hpdbEPH+bLvcJm7B+ScK1kikr4G2zWyoC8wDdxXwKuFKpU2sGhoeCd0DcmvY0jF9HHnGCyPEcCSUUI=
+  app: blogPost6
+  on:
+    repo: saaderana/blogPost6
